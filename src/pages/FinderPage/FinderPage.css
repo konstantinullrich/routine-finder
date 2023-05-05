@@ -1,0 +1,51 @@
+.finder.app-container {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    padding: 40px;
+    background-image: url(https://s3.lightboxcdn.com/vendors/9c752998-0e79-41e5-9fb2-aefcc4cc8352/uploads/a926abe6-cbc9-49e8-a4c8-a09969d8b0bb/backgroundallgemeinempty.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.finder.progress-bar {
+    height: 100px;
+    width: calc(100% - 80px);
+}
+
+.finder.description {
+    width: 630px;
+    height: 30px;
+}
+
+.finder.question {
+    width: 630px;
+    height: 64px;
+}
+
+.finder p {
+    margin: 0;
+}
+
+.finder.description p {
+    font-family: 'DM Sans Regular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.finder.question p {
+    font-family: 'DM Sans Bold', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    height: 30px;
+}

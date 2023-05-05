@@ -1,0 +1,40 @@
+.finder.question-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-slide.description {
+    width: 630px;
+    height: 30px;
+}
+
+.question-slide.question {
+    width: 630px;
+    height: 64px;
+}
+
+.question-slide p {
+    margin: 0;
+}
+
+.question-slide.description p {
+    font-family: 'DM Sans Regular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.question-slide.question p {
+    font-family: 'DM Sans Bold', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    height: 30px;
+}
