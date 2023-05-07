@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.question-slide.description {
+.question-slide.title {
     width: 630px;
     height: 30px;
 }
@@ -18,8 +18,8 @@
     margin: 0;
 }
 
-.question-slide.description p {
-    font-family: 'DM Sans Regular', sans-serif;
+.question-slide.title p {
+    font-family: 'DM Sans', sans-serif;
     font-weight: normal;
     font-style: normal;
     text-decoration: none;
@@ -29,12 +29,21 @@
 }
 
 .question-slide.question p {
-    font-family: 'DM Sans Bold', sans-serif;
-    font-weight: normal;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
     font-style: normal;
     text-decoration: none;
     text-align: center;
     font-size: 30px;
     color: rgb(0, 0, 0);
     height: 30px;
+}
+
+.question-slide.user-input {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

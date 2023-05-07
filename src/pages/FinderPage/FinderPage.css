@@ -30,7 +30,7 @@
 }
 
 .finder.description p {
-    font-family: 'DM Sans Regular', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: normal;
     font-style: normal;
     text-decoration: none;
@@ -40,8 +40,8 @@
 }
 
 .finder.question p {
-    font-family: 'DM Sans Bold', sans-serif;
-    font-weight: normal;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
     font-style: normal;
     text-decoration: none;
     text-align: center;

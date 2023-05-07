@@ -1,0 +1,27 @@
+.primary-button {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 263px;
+}
+
+.primary-button.large {
+    height: 60px;
+    font-size: 20px;
+}
+
+.primary-button.medium {
+    height: 30px;
+    font-size: 15px;
+}
+
+.primary-button.small {
+    height: 20px;
+    font-size: 10px;
+}

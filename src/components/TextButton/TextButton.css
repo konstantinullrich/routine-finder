@@ -1,0 +1,25 @@
+.text-button {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-Style: normal;
+    text-decoration: none;
+    width: 263px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.text-button.large {
+    height: 60px;
+    font-size: 20px;
+}
+
+.text-button.medium {
+    height: 30px;
+    font-size: 15px;
+}
+
+.text-button.small {
+    height: 20px;
+    font-size: 10px;
+}
