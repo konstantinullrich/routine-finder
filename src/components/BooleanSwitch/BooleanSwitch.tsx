@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import "./BooleanSwitch.css";
 
@@ -10,17 +10,23 @@ type BooleanSwitchProps = {
 
 const BooleanSwitch = (props: BooleanSwitchProps) => {
     const {onChange, trueLabel, falseLabel} = props;
+    const [currentValue, setCurrentValue] = useState<boolean | undefined>()
+
+    const setValue = (value: boolean) => {
+        setCurrentValue(value)
+        onChange(value)
+    }
 
     return (
         <div className="boolean-switch-container">
             <div className="boolean-switch-child">
-                <button onClick={() => onChange(true)}>
+                <button className={currentValue ? "selected" : ""} onClick={() => setValue(true)}>
                     ✔️
                 </button>
                 {trueLabel}
             </div>
             <div className="boolean-switch-child">
-                <button onClick={() => onChange(false)}>
+                <button className={currentValue ? "" : "selected"} onClick={() => setValue(false)}>
                     ❌
                 </button>
                 {falseLabel}

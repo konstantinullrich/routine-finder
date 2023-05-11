@@ -1,0 +1,41 @@
+{
+  "startsAt": "name",
+  "pages": [
+    {
+      "key": "name",
+      "title": "WILKOMMEN",
+      "question": "Wie heißt du?",
+      "input": {
+        "type": "text",
+        "label": "Dein Name"
+      },
+      "leadsTo": "/age"
+    },
+    {
+      "key": "age",
+      "title": "DEIN ALTER",
+      "question": "Wie alt bist du?",
+      "input": {
+        "type": "number",
+        "label": "Dein Alter"
+      },
+      "leadsTo": "param < 18 ? 'medication' : 'pre_existing_illness'"
+    },
+    {
+      "key": "pre_existing_illness",
+      "title": "VORERKRANKUNGEN",
+      "question": "Leidest du an einer Krankheit?",
+      "input": {
+        "type": "boolean"
+      }
+    },
+    {
+      "key": "medication",
+      "title": "MEDIKATION",
+      "question": "Nimmst du Medikamente?",
+      "input": {
+        "type": "boolean"
+      }
+    }
+  ]
+}

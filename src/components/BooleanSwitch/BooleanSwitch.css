@@ -32,3 +32,9 @@
     border-color: rgb(6, 38, 53);
     font-size: 18px;
 }
+
+.boolean-switch-child .selected {
+    background: #f6f6f6;
+    border-color: rgb(6, 38, 53);
+    font-size: 18px;
+}

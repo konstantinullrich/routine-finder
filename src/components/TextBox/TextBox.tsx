@@ -3,23 +3,19 @@ import React from 'react';
 import './TextBox.css';
 
 type TextBoxProps = {
+    label: string,
+    type: "text" | "number",
+    onChange: (value: string) => void
 }
 
 const TextBox = (props: TextBoxProps) => {
 
-    const containerStyles = {
-        color: 'rgb(77, 77, 77)',
-        fontFamily: 'Arial, Helvetica, sans-serif',
-    fontSize: 11,
-    marginTop: 2,
-    marginLeft: 2,
-    overflow: 'hidden',
-    width: '100%'
-}
-
-
     return (
-        <input className="text-box" type="text" placeholder="Dein Name" />
+        <input
+            className="text-box"
+            type={props.type}
+            placeholder={props.label}
+            onChange={e => props.onChange(e.target.value)}/>
     );
 };
 

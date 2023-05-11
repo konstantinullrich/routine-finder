@@ -1,0 +1,25 @@
+.chip-button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 48px;
+    padding: 1px 25px 1px 25px;
+}
+
+.chip-button:hover {
+    border-color: rgb(6, 38, 53);
+}
+
+.chip-button.selected {
+    border-color: rgb(6, 38, 53);
+}

@@ -1,0 +1,29 @@
+.image-button {
+    font-family: 'DM Sans Bold', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    background-position: center top;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    width: 163px;
+    height: 170px;
+    cursor: pointer;
+    padding-top: 120px;
+    background-size: 165px;
+}
+
+.image-button:hover {
+    border-color: rgb(6, 38, 53);
+}
+
+.image-button.selected {
+    border-color: rgb(6, 38, 53);
+}
